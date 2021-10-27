@@ -23,9 +23,9 @@ email: zan15592@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   the one for all solution in cell research.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://cellvision.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: cellvision
+github_username:  cellvision
 
 # Build settings
 theme: minima
