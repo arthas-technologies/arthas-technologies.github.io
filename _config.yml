@@ -27,6 +27,17 @@ url: "https://cellvision.github.io/" # the base hostname & protocol for your sit
 twitter_username: cellvision
 github_username:  cellvision
 
+# Attributes that exist but arent default
+author: Alessandro Zanella
+linkedin_username: alessandro-zanella-464528171
+
+# new fields not defaulted
+copyright: "cellvision Inc."
+
+#field that represents the path to title-logo
+
+title-logo: 
+
 # Build settings
 # Removed Minima Theme as it is now a regular theme
 # theme: minima
