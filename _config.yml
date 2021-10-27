@@ -28,7 +28,8 @@ twitter_username: cellvision
 github_username:  cellvision
 
 # Build settings
-theme: minima
+# Removed Minima Theme as it is now a regular theme
+# theme: minima
 plugins:
   - jekyll-feed
 
