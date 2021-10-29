@@ -1,0 +1,33 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ site.title | xml_escape }} - Development</title>
+		<description>Posts categorized as 'development'</description>
+		<link>{{ site.url }}</link>
+        <updated>{{ site.time | date_to_xmlschema}}</updated>
+		<atom:link href="{{ site.url }}{{ site.baseurl }}/blog-development/feed.xml" rel="self" type="application/rss+xml" />
+		{% for post in site.categories.development limit:20 %}
+			<item>
+				<title>{{ post.title | xml_escape }}</title>
+				<description>{{ post.content | strip_html | lstrip | rstrip | xml_escape }}</description>
+				<pubDate>{{ post.date | date : "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+                <updated>{{ post.date | date_to_xmlschema}}</updated>
+				<link>{{ site.url }}{{ post.url }}</link>
+				<guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+                <author>
+                    <name>
+                        {%- if site.author -%}
+                            {{- site.author -}}
+                        {%- else -%}
+                            {{- site.title -}}
+                        {%- endif -%}
+                    </name>
+                </author>
+            
+			</item>
+		{% endfor %}
+	</channel>
+</rss>
