@@ -4,7 +4,7 @@ layout: none
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>{{ site.name | xml_escape }} - Business</title>
+		<title>{{ site.title | xml_escape }} - Business</title>
 		<description>Posts categorized as 'business'</description>
 		<link>{{ site.url }}</link>
         <updated>{{ site.time | date_to_xmlschema}}</updated>
