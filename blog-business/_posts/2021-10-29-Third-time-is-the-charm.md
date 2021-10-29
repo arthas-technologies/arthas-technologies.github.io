@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Third time's the charm
-date: 2021-10-29 15:39:00
+date: 2021-10-29 15:39:00 +0200
 category: business
 ---
 
