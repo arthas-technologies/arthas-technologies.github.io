@@ -4,6 +4,6 @@
 
 #internally called business / externally news
 layout: home-business
-title: "News"
+title: "business"
 category: business
 ---

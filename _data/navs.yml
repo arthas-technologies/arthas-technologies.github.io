@@ -1,0 +1,13 @@
+items:
+  - title: about
+    url: /about/
+    display: true
+    so: 1
+  - title: development
+    url: /blog-development/
+    display: true
+    so: 2
+  - title: business
+    url: /blog-business/
+    display: true
+    so: 3

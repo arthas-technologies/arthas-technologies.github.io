@@ -36,7 +36,7 @@ copyright: "cellvision Inc."
 
 #field that represents the path to title-logo
 
-title-logo: "/images/arthas_jig.png"
+title-logo: "/assets/images/arthas_jig.png"
 
 # Build settings
 # Removed Minima Theme as it is now a regular theme
