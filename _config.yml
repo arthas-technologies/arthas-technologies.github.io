@@ -18,21 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: cellvision
+title: ARTHAS
 email: zan15592@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   the one for all solution in cell research.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cellvision.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: cellvision
-github_username:  cellvision
+twitter_username: arthas_inc
+github_username:  arthas_inc
 
 # Attributes that exist but arent default
 author: Alessandro Zanella
 linkedin_username: alessandro-zanella-464528171
 
 # new fields not defaulted
-copyright: "cellvision Inc."
+copyright: "arthas Inc."
 
 #field that represents the path to title-logo
 
