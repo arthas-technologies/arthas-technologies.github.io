@@ -10,4 +10,8 @@ items:
   - title: Business
     url: /blog-business/
     display: false
-    so: 2
+    so: 4
+  - title: News
+    url: /news/
+    display: false
+    so: 2 
