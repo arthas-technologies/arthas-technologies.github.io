@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+    
+    <div id="particles-js" class="canvas-bg"></div>
+    <script src="/js/particles.js"></script> 
+    <script src="/js/app.js"></script>
+
+    <div class="splash-content">
+      <div class="splash-welcome-container">
+        <hr>
+        <h3 class="top text"> welcome to </h3>  
+        <img src="/assets/logo_thick.svg" class="splash-logo"></img>
+        <h3 class="bot-text"> where engineering meets life science</h3>
+        <hr>
+      </div>
+    </div>
+    
+  </body>
+
+</html>

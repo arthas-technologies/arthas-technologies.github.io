@@ -6,8 +6,8 @@ items:
   - title: Development
     url: /blog-development/
     display: true
-    so: 2
+    so: 3
   - title: Business
     url: /blog-business/
-    display: true
-    so: 3
+    display: false
+    so: 2

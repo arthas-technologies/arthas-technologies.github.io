@@ -36,7 +36,7 @@ copyright: "arthas Inc."
 
 #field that represents the path to title-logo
 
-title-logo: "/assets/images/arthas_jig.png"
+title-logo: "/assets/logo_text.svg"
 
 # Build settings
 # Removed Minima Theme as it is now a regular theme

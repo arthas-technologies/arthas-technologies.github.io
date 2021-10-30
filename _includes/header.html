@@ -27,10 +27,11 @@
         </label>
 
         <div class="trigger">
-          {%- for nav in site.data.navs.items | where: "display", true-%}
-          {%- if nav.title -%}
-          <a class="page-link" href="{{site.url}}{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
-          {%- endif -%}
+          {%- assign navs = site.data.navs.items 
+            | where: "display", true 
+            | sort: "so" -%}
+          {%- for nav in navs -%}
+            <a class="page-link" href="{{site.url}}{{ nav.url | relative_url }}">{{ nav.title | escape }}</a>
         {%- endfor -%}
         </div>
       </nav>
