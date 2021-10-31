@@ -23,16 +23,16 @@ email: zan15592@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   the one for all solution in cell research.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cellvision.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: arthas_inc
-github_username:  arthas_inc
+url: "https://arthas-technologies.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: arthas_tech
+github_username:  arthas_tech
 
 # Attributes that exist but arent default
 author: Alessandro Zanella
 linkedin_username: alessandro-zanella-464528171
 
 # new fields not defaulted
-copyright: "arthas Inc."
+copyright: "arthas technologies"
 
 #field that represents the path to title-logo
 
