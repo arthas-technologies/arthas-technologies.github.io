@@ -5,7 +5,7 @@ items:
     so: 1
   - title: Development
     url: /blog-development/
-    display: true
+    display: false
     so: 3
   - title: Business
     url: /blog-business/
