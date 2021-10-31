@@ -24,12 +24,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   where engineering meets life scrience.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://arthas-technologies.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: arthas_tech
-github_username:  arthas_tech
+twitter_username: arthas-technologies
+github_username:  arthas-technologies
 
 # Attributes that exist but arent default
 author: Alessandro Zanella
-linkedin_username: alessandro-zanella-464528171
+linkedin_username: company/arthas-technologies
 
 # new fields not defaulted
 copyright: "arthas technologies"
